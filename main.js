@@ -1,8 +1,8 @@
-window.onresize = screen   //resize kortesi screen tai onresize
-window.onload = screen   //live width dekhacche tai onload
+window.onresize = screen   
+window.onload = screen   
 
 function screen(){
-    myWidth = window.innerWidth  //width ta koto hocche sheita dekhacche
+    myWidth = window.innerWidth  
 
     document.getElementById('size').innerHTML = "Width: " + myWidth
 }
